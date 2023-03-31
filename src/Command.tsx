@@ -39,7 +39,7 @@ export default function command({showres, showcmd,cmd}:props) {
   return (
     <div onClick={()=>ref.current?.focus()}>
         <form className='flex' onSubmit={handleSubmit}>
-            <PATH> guest@myPortfolio:~$ </PATH>
+            <PATH> guest@octorocks:~$ </PATH>
             <div className='cursor'>
                 <INPUT type="text" name='commandInput' value={commandInput} onChange={handleChangeAndSize} autoFocus ref={ref} disabled={isDisabled}/>
                 <i className={animation} ></i>

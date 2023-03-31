@@ -19,7 +19,7 @@ function App() {
         <span className=" text-warmpurple text-lg self-end opacity-70 ml-5">v1.1.0</span>
       </BANNER>
       <PRE>
-        <p>welcome to my interactive web terminal.</p>
+        <p>welcome to octo.rocks web terminal.</p>
         <p>type <SPAN>'help'</SPAN> for a list of available commands.</p>
       </PRE>
       <APP>

@@ -17,16 +17,16 @@ type cmd =({
     };
 })
 const data:cmd[] =[
-    {command: 'about' , description: 'brief summary' , content: 'as you probably know, my name is Ayouch Soumiya. i\'m a 20 years old full stack web developer, familiar with wide range of programming utilities and languages, knowledgeable of frontend and backend development requirements. Currently working with Reactjs, Typescript, TailwindCss. and laravel for backend apps.'},
-    {command: 'projects' , description: 'some projects i\'ve posted' , content: 'https://github.com/soumiya59?tab=repositories'},
-    {command: 'email' , description: 'you can email me' , content: 'ayouch.somaya@gmail.com'},
-    {command: 'linkedin' , description: 'you can text me' , content: 'https://www.linkedin.com/in/soumiya-ayouch-b594361b6/'},
+    {command: 'about' , description: 'brief summary' , content: 'Octo Rocks is an innovative AI platform that focuses on enhancing the accessibility and user experience of AI models and tools. Leveraging the concepts behind Ugly Requests Require Beautiful Prompts (URRBP), Octo Rocks incorporates a human-optimized layer for prompt optimization, intelligent AI model selection, and seamless interaction management. The platform bridges the gap between expertly generated prompts and user customization by simplifying complex AI layers and enabling adaptable prompt engineering tailored to various user needs. As a result, Octo Rocks sets the stage for revolutionizing AI accessibility and multi-modal task handling in a user-friendly and efficient manner.'},
+    {command: 'predictexpert' , description: 'predict expert website' , content: 'https://predict.expert'},
+    {command: 'email' , description: 'you can email us' , content: 'william@predict.expert'},
+    {command: 'linkedin' , description: 'you can follow us' , content: 'https://www.linkedin.com/company/predict-expert-ai/'},
     {command: 'music' , description: 'a little break' , content: 'https://www.youtube.com/watch?v=wDjeBNv6ip0'},
-    {command: 'skills' , description: 'i\'m good at some stuff' , 
+    {command: 'skills' , description: 'we love AI' , 
       content: {frontEnd :['HTML', 'CSS', 'Bootstrap', 'TailwindCSS', 'JavaScript', 'JQuery', 'JSON', 'ReactJS', 'TypeScript', 'Redux'],
                 backEnd  :['Mysql', 'Sql', 'MongoDB', 'PHP', 'Laravel', 'Python'], 
                 tools: ['Vscode', 'Atom', 'Vim', 'Linux', 'Git', 'Github', 'Gitlab', 'LAMP', 'Canva', 'Figma', 'UML', 'jira','Docker']}},
-    {command: 'repo' , description: 'check this project\'s repository' ,content:'https://github.com/soumiya59/my-portfolio'},
+    {command: 'repo' , description: 'check this project\'s repository' ,content:'https://github.com/git-akazam'},
     {command: 'quote',description:'quote of the day' ,content:'If you want to lift yourself up, lift up someone else.'},
     {command: 'clear' , description: 'clear terminal' ,content:''},
 ]
